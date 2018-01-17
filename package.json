@@ -1,0 +1,19 @@
+{
+  "name": "quxx",
+  "version": "0.0.1",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:voltraco/quxx.git"
+  },
+  "scripts": {
+    "install": "node build.js",
+    "rebuild": "node build.js"
+  },
+  "dependencies": {
+    "cmake-js": "^3.5.0",
+    "cross-spawn": "^5.1.0",
+    "nan": "^2.4.0",
+    "npm-run-path": "^2.0.2"
+  }
+}
